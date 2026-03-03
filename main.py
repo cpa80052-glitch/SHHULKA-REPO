@@ -1118,12 +1118,119 @@ async def txt_handler(bot: Client, m: Message):
 
 
             try:
-                cc = f'╔══════[ RAJPUT]══════╗\n╭┈✰┈┈┈╮\n{str(count).zfill(3)}\n╰┈┈┈✰┈╯\n\n**📹 𝗩𝗜𝗗𝗘𝗢 𝗧𝗜𝗧𝗟𝗘 ➬ ** `{name1}\n├── Extention ➫ @praxharaj 💝\n├── Resolution [{res}p] @praxharajmkv`\n\n<blockquote><b>🧿 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘 ➲</b> {b_name}</blockquote>\n\n**💎 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗕𝗬 ➫**\n\n╔.★. .═════════════╗\n\n 𓇼{CR}𓇼\n\n╚═════════════. .★.╝\n\n<blockquote>『────⟡{CR}⟡────』</blockquote>\n\n╔════════════════════╗
-                cc1 = f'╔══════[ RAJPUT]══════╗\n╭┈✰┈┈┈╮\n {str(count).zfill(3)}\n╰┈┈┈✰┈╯\n\n**📁 𝗙𝗜𝗟𝗘 𝗧𝗜𝗧𝗟𝗘  ➬** `{name1}`\n├── Extention ➫ @praxharaj 💝\n├── Resolution -@praxharaj.pdf`\n\n<blockquote><b>🧿 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘 ➲</b> {b_name}</blockquote>\n\n**💎 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗕𝗬 ➫**\n\n╔.★. .═════════════╗\n\n 𓇼{CR}𓇼\n\n╚═════════════. .★.╝\n\n<blockquote>『────⟡{CR}⟡────』</blockquote>\n\n╔════════════════════╗
-                ccimg = f'\n╭┈✰┈┈┈╮\n {str(count).zfill(3)}\n╰┈┈┈✰┈╯\n\n**Img Title :** `{name1}\n├── Extention ➫ @praxharaj 💝\n├── Resolution.jpg`\n\n<blockquote><b>🧿 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘 ➲</b> {b_name}</blockquote>\n\n**💎 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗕𝗬 ➫**\n\n╔.★. .═════════════╗\n\n 𓇼{CR}𓇼\n\n╚═════════════. .★.╝\n\n<blockquote>『────⟡{CR}⟡────』</blockquote>'
-                ccm = f'\n╭┈✰┈┈┈╮\n {str(count).zfill(3)}\n╰┈┈┈✰┈╯\n\n**Audio Title :** `{name1}\n├── Extention ➫ @praxharaj💝\n├── Resolution.mp3`\n\n<blockquote><b>🧿 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘 ➲</b> {b_name}</blockquote>\n\n**💎 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗕𝗬 ➫**\n\n╔.★. .═════════════╗\n\n 𓇼{CR}𓇼\n\n╚═════════════. .★.╝\n\n<blockquote>『────⟡{CR}⟡────』</blockquote>'
-                cchtml = f'\n╭┈✰┈┈┈╮\n {str(count).zfill(3)}\n╰┈┈┈✰┈╯\n\n**Html Title :** `{name1}\n├── Extention ➫ @praxharaj 💝\n├── Resolution.html`\n\n<blockquote><b>🧿 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘 ➲</b> {b_name}</blockquote>\n\n**💎 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗕𝗬 ➫**\n\n╔.★. .═════════════╗\n\n 𓇼{CR}𓇼\n\n╚═════════════. .★.╝\n\n<blockquote>『────⟡{CR}⟡────』</blockquote>'
+                 cc = f"""╔══════[ RAJPUT]══════╗
+╭┈✰┈┈┈╮
+{str(count).zfill(3)}
+╰┈┈┈✰┈╯
 
+**📹 𝗩𝗜𝗗𝗘𝗢 𝗧𝗜𝗧𝗟𝗘 ➬** `{name1}`
+├── Extention ➫ @praxharaj 💝
+├── Resolution [{res}p] @praxharajmkv
+
+<blockquote><b>🧿 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘 ➲</b> {b_name}</blockquote>
+
+**💎 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗕𝗬 ➫**
+
+╔.★. .═════════════╗
+
+𓇼{CR}𓇼
+
+╚═════════════. .★.╝
+
+<blockquote>『────⟡{CR}⟡────』</blockquote>
+
+╔════════════════════╗
+"""
+
+cc1 = f"""╔══════[ RAJPUT]══════╗
+╭┈✰┈┈┈╮
+{str(count).zfill(3)}
+╰┈┈┈✰┈╯
+
+**📁 𝗙𝗜𝗟𝗘 𝗧𝗜𝗧𝗟𝗘 ➬** `{name1}`
+├── Extention ➫ @praxharaj 💝
+├── Resolution - @praxharaj.pdf
+
+<blockquote><b>🧿 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘 ➲</b> {b_name}</blockquote>
+
+**💎 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗕𝗬 ➫**
+
+╔.★. .═════════════╗
+
+𓇼{CR}𓇼
+
+╚═════════════. .★.╝
+
+<blockquote>『────⟡{CR}⟡────』</blockquote>
+
+╔════════════════════╗
+"""
+
+ccimg = f"""
+╭┈✰┈┈┈╮
+{str(count).zfill(3)}
+╰┈┈┈✰┈╯
+
+**Img Title :** `{name1}`
+├── Extention ➫ @praxharaj 💝
+├── Resolution.jpg
+
+<blockquote><b>🧿 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘 ➲</b> {b_name}</blockquote>
+
+**💎 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗕𝗬 ➫**
+
+╔.★. .═════════════╗
+
+𓇼{CR}𓇼
+
+╚═════════════. .★.╝
+
+<blockquote>『────⟡{CR}⟡────』</blockquote>
+"""
+
+ccm = f"""
+╭┈✰┈┈┈╮
+{str(count).zfill(3)}
+╰┈┈┈✰┈╯
+
+**Audio Title :** `{name1}`
+├── Extention ➫ @praxharaj 💝
+├── Resolution.mp3
+
+<blockquote><b>🧿 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘 ➲</b> {b_name}</blockquote>
+
+**💎 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗕𝗬 ➫**
+
+╔.★. .═════════════╗
+
+𓇼{CR}𓇼
+
+╚═════════════. .★.╝
+
+<blockquote>『────⟡{CR}⟡────』</blockquote>
+"""
+
+cchtml = f"""
+╭┈✰┈┈┈╮
+{str(count).zfill(3)}
+╰┈┈┈✰┈╯
+
+**Html Title :** `{name1}`
+├── Extention ➫ @praxharaj 💝
+├── Resolution.html
+
+<blockquote><b>🧿 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘 ➲</b> {b_name}</blockquote>
+
+**💎 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗕𝗬 ➫**
+
+╔.★. .═════════════╗
+
+𓇼{CR}𓇼
+
+╚═════════════. .★.╝
+
+<blockquote>『────⟡{CR}⟡────』</blockquote>
+"""
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
